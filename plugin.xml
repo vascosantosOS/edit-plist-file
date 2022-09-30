@@ -54,11 +54,12 @@
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
             <string>Enable Sapphire Care to access your photo library so that you can upload a picture for your profile.</string>
         </config-file>
-    	<edit-config file="*-Info.plist" mode="overwrite" platform="ios" target="UIBackgroundModes">
+	<config-file target="*-Info.plist" parent="UIBackgroundModes">
 		<array>
 			<string>remote-notification</string>
-		</array>
-	</edit-config>
+	    	</array>
+	</config-file>
+
     </platform>
     
 </plugin>
