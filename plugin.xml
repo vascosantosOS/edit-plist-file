@@ -48,12 +48,18 @@
             </array>
         </config-file>
         <!-- iOS access messages -->
+	<config-file parent="NSLocationAlwaysAndWhenInUseUsageDescription" target="*-Info.plist">
+            <string>We access your location to improve your experience.</string>
+        </config-file>
+	    <config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
+            <string>We access your location to improve your experience.</string>
+        </config-file>
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-            <string>Enable Sapphire Care to access your camera so that you can take a picture for your profile.</string>
+            <string>Enable Kuwait Hospital to access your camera so that you can take a picture for your profile.</string>
         </config-file>
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-            <string>Enable Sapphire Care to access your photo library so that you can upload a picture for your profile.</string>
-        </config-file>
+            <string>Enable Kuwait Hospital to access your photo library so that you can upload a picture for your profile.</string>
+        </config-file> 
 	<config-file parent="UIBackgroundModes" target="*-Info.plist" >
 		<array>
 			<string>remote-notification</string>
