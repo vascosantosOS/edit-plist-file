@@ -55,10 +55,10 @@
             <string>We access your location to improve your experience.</string>
         </config-file>
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-            <string>Enable Kuwait Hospital to access your camera so that you can take a picture for your profile.</string>
+            <string>Allow access your camera so that you can take a picture for your profile.</string>
         </config-file>
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-            <string>Enable Kuwait Hospital to access your photo library so that you can upload a picture for your profile.</string>
+            <string>Allow access your photo library so that you can upload a picture for your profile.</string>
         </config-file> 
         <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
             <string>The application needs contacts access to allow remote appointments via Zoom.</string>
