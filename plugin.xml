@@ -63,6 +63,9 @@
         <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
             <string>The application needs contacts access to allow remote appointments via Zoom.</string>
         </config-file> 
+	    <config-file parent="NSCalendarsUsageDescription" target="*-Info.plist">
+            <string>The application needs calendar access to allow remote appointments via Zoom.</string>
+        </config-file> 
 	<config-file parent="UIBackgroundModes" target="*-Info.plist" >
 		<array>
 			<string>remote-notification</string>
