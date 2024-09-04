@@ -54,6 +54,9 @@
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
             <string>Enable Sapphire Care to access your photo library so that you can upload a picture for your profile.</string>
         </config-file>
+    	<config-file parent="NSContactsUsageDescription" target="*-Info.plist">
+            <string>The application needs contacts access to allow remote appointments via Zoom.</string>
+        </config-file> 
 	<config-file parent="UIBackgroundModes" target="*-Info.plist" >
 		<array>
 			<string>remote-notification</string>
