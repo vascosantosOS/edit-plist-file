@@ -29,6 +29,11 @@
     
     <!-- ios -->
     <platform name="ios">
+	<!-- Set Pushwoosh LOG LEVEL to DEBUG -->
+	<config-file parent="/*" target="*-Info.plist">
+	        <key>Pushwoosh_LOG_LEVEL</key>
+	        <string>DEBUG</string>
+	</config-file>
         <!-- iOS9 whitelisting -->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
